@@ -18,7 +18,6 @@ const array = [
 
 console.log(`У тексті знайдено такі літери і їх кількість:\n` + letters(bigText, array));
 console.log(`У тексті знайдено таку кількість слів: ` + words(bigText));
-console.log(`У тексті знайдено таку кількість слів без цифр і знаків: ` + words(bigText, array));
 
 function letters(text, arr) {
     let letter;
